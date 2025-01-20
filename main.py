@@ -31,7 +31,7 @@ os.makedirs("uploads", exist_ok=True)
 
 # Set up API keys and configurations
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+PINECONE_API_KEY = "e16b0490-ed22-48e1-89a7-a634df9e6979"
 INDEX_NAME = "image-qa-index"
 
 # Initialize Pinecone
